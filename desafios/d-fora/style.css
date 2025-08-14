@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "outfit";
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "young";
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf") format('truetype');
+}
+body {
+    background-color: #F3E5D8;
+}
+main {
+    background-color: white;
+    min-width: 180px;
+    max-width: 600px;
+    padding: 23px;
+    margin: auto;
+    border-radius: 15px;
+    
+}
+
+main img {
+    min-width: 180px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+main h1{
+    font-family: young;
+    font-weight: 300;
+    font-size: 2.3em;
+
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: rgb(58, 58, 58);
+    opacity: 0.10;
+    width: 100%;
+}
+
+h2 {
+    font-family: young;
+    font-weight: 250;
+    color: #86422B;
+    margin-top: 20px;
+}
+
+.paragrafos {
+    font-family: outfit;
+}
+
+.primeiro {
+    background-color: #FFF7FC;
+    border-radius: 10px;
+    padding: 5px;
+}
+.primeiro h3 {
+    font-family: outfit;
+    font-weight: 600;
+    margin: 20px;
+    color: #742B49;
+}
+
+li {
+    font-family: outfit;
+    text-indent: 1.1em;
+    margin-bottom:10px;
+    opacity: 0.78; /* deixa a bolinha mais longe do texto */
+    
+  }
+
+li::marker {
+    font-size: 0.7em;     /* diminui o tamanho da bolinha */
+    font-weight: normal;  /* garante que ela fique fina */
+    color: #742B49;
+}
+
+.item {
+    padding: 10px;
+    min-width: 200px;
+    width: 100%;
+
+}
+
+.segundo {
+    font-family: outfit;
+
+}
+
+.item1 {
+    padding: 10px;
+    text-align: left;
+    text-indent: -2px; /* Move a primeira linha para trás */
+}
+
+.item1::marker {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.item1::marker {
+    font-weight: 600;
+}
+
+.calorias {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    color: #86422B;
+}
+
+footer {
+    font-family: outfit;
+    font-size: 0.8em;
+    padding: 15px;
+}
+
+footer a {
+    color: #742B49;
+}

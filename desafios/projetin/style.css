@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fifties Movies';
+    src: url(fonte/Fifties\ Movies.ttf) format('truetype');
+}
+
+:root {
+    --cor0: #897D67;
+    --cor1: #574E3D;
+    --cor2: #D8C8AE;
+    --cor3: #EDF2EF;
+    --cor4: #0D0A0D;
+
+    --font-1: 'Fifties Movies', sans-serif;
+    --font-2: 'Lexend', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor0);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    min-height: 150px;
+    padding-top: 25px;;
+}
+
+header h1 {
+    font-family: 'Fifties Movies', sans-serif;
+    font-weight: normal;
+    color: var(--cor3);
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    
+
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: var(--cor3);
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 1.1em;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav a {
+    font-family: "Lexend", sans-serif;
+    color: var(--cor2);
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #897D67;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+
+main {
+    background-color: var(--cor2);
+    max-width: 180px;
+    min-width: 1000px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.342);
+    padding: 30px;
+}
+
+main p {
+    font-family: "Lexend", sans-serif;
+    color: var(--cor4);
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 1em;
+}
+
+article {
+    font-family: "Lexend", sans-serif;
+    color: var(--cor4);
+    line-height: 1.6;
+    font-size: 1.2em;
+    
+}
+
+footer {
+    font-family: var(--font-2);
+    color: var(--cor2);
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 15px;
+    
+}

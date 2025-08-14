@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+
+    <p>Aumente e diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+       <img src="imagens/foto-g.png" alt=""> 
+    </picture>
+
+    <h2>Trabalhando com mídias</h2>
+
+    <p>A seguir você vai ver um áudio de um podcast em mp3.</p>
+
+    <audio controls>
+        <source src="midia/talky-beat-twin-musicom.mp3" type="audio/mpeg">
+        <p>Seu navegador não conseguiu reproduzir o áudio <a href="midia/talky-beat-twin-musicom.mp3"> Clique aqui para baixar o áudio</a></p>
+    </audio>
+</body>
+</html>
